@@ -1,0 +1,62 @@
+body {
+    margin: 20px; 
+    font-family: Arial, Helvetica, sans-serif; /*use web-safe fonts*/
+}
+
+.avatar {
+   width: 150px;
+}
+
+.card {
+   background-color:aliceblue ;
+   width: 500px;
+   display: flex;
+/*   margin-left: auto;
+   margin-right: auto;*/
+ margin: 0 auto;
+
+
+   /*margin: 10px 20px 30px 100px; /*top right bottom left*/
+   padding: 20px;
+   justify-content: space-around; /* space  2 flex items/pic and text*/
+   text-align: center;
+   border-bottom: 10px solid teal;
+
+
+}
+
+.red-circle {
+ height: 150px;
+ width: 150px;
+ border-radius: 100%;
+ background: #BC002D;
+ margin: 40px auto;
+/* If top and bottom are one value, and right and left are 1 value:
+    use 2 values, first for bottom/top, second for right/left;*/
+
+}
+
+
+/*
+.bordered{
+    border: 1px blue dotted;
+
+}*/
+
+/*
+.info {
+/*
+    padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+
+text-align: center;
+ }*/
+
+
+/*
+ .color{
+    width: auto;
+    height: 100px;
+    background-color: darkblue;
+ }*/
